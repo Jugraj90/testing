@@ -63,6 +63,8 @@ class CollectionVC: UIViewController,UICollectionViewDelegate,UICollectionViewDa
         
         cell.lbl.text = names[indexPath.row]
         
+        cell.img!.image = UIImage(named: "abc.jpeg")
+        
         return cell
     }
     

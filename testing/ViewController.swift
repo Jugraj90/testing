@@ -54,6 +54,7 @@ class ViewController: UIViewController {
     // MARK:- IBAction
     @IBAction func NextBtn(_ sender: Any) {
 
+        // move to next vc
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         
         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
